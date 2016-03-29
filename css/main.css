@@ -60,6 +60,7 @@ div {
 
   color: darkgoldenrod;
   text-align: center;
+  transition: 500ms linear;
 }
 
 .panel h2 {
@@ -110,12 +111,9 @@ div {
   right: 75px;
 }
 
-
-
-
-
-
-
+.collapse{
+  max-height: 0%;
+}
 
 
 .bounce {

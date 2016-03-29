@@ -1,10 +1,21 @@
 var $body = $ ('body');
 
-
-
 $body.on('click', '.btn-show-hide', function () {
   $('.box').toggleClass('is-clicked');
 });
+
+$body.on('click', '.btn-move', function () {
+  $('.diamond').toggleClass('slide-in');
+});
+
+
+
+
+$body.on('click', '.btn-collapse-expand', function () {
+  $('.panel').toggleClass('collapse');
+});
+
+
 
 
 $body.on('click', '.btn-bounce', function () {

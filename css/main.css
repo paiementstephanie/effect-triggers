@@ -99,3 +99,7 @@ div {
 
   color: mediumpurple;
 }
+
+.is-clicked {
+  opacity: 1;
+}

@@ -103,3 +103,30 @@ div {
 .is-clicked {
   opacity: 1;
 }
+
+
+
+
+
+
+
+
+
+
+.bounce {
+  animation: bounce 1s linear;
+}
+
+@keyframes bounce {
+  0% {
+    top: 0;
+    right: 1em;
+  }
+  25% {
+    top: 15px;
+    right: 4em;
+  }
+
+  100% { top: 40px; }
+
+}

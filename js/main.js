@@ -25,3 +25,8 @@ $body.on('click', '.btn-bounce', function () {
 $body.on('animationend', '.circle', function () {
   $(this).removeClass('bounce');
 });
+
+
+$body.on('click', '.btn-append', function () {
+  $('.list').append('<li>New List Item</li>');
+});

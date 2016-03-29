@@ -1,8 +1,9 @@
 var $body = $('body');
 var $show = $('.btn-show-hide');
-var $move = $('btn-move');
-
-
+var $move = $('.btn-move');
+var $bounce = $('.btn-bounce');
+var $collapse = $('.btn-collapse-expand');
+var $list = $('.btn-append');
 
 $body.on('click', '.btn-show-hide', function () {
   $('.box').toggleClass('show');
